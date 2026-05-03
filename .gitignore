@@ -1,0 +1,57 @@
+# Byte-compiled / optimised
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project-specific
+runs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Datasets — never commit
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Logs / outputs
+*.log
+outputs/
+wandb/
