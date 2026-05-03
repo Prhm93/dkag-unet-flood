@@ -158,7 +158,7 @@ If you use this code or the DKAG idea, please cite:
 ```bibtex
 @inproceedings{imanzadeh2026dkag,
   title     = {Dynamic Kernel Attention Gate for Ground-Level Flood Image Segmentation},
-  author    = {{Imanzadeh Charandabi}, Parham},
+  author    = {{Imanzadeh Charandabi}, Parham and Palaiahnakote, Shivakumara and Antonacopoulos, Apostolos},
   booktitle = {IPGRC 2026},
   year      = {2026},
   note      = {To appear}
