@@ -30,9 +30,9 @@ All three models share the **identical** ImageNet-pretrained ResNet34 encoder. O
 
 | Model                 | IoU         | Dice        | Precision   | Recall      | Accuracy    |
 |-----------------------|-------------|-------------|-------------|-------------|-------------|
-| Standard U-Net        | 90.35 %     | 94.69 %     | —           | —           | —           |
-| Attention U-Net (Oktay) | 89.23 %   | 93.99 %     | —           | —           | —           |
-| **DKAG U-Net (ours)** | **93.76 %** | **96.65 %** | —           | —           | —           |
+| Standard U-Net        | 90.35 % | 92.65 % | 92.42 % | 97.72 % | 97.66 % |
+| Attention U-Net (Oktay) | 89.23 % | 91.91 % | 93.65 % | 95.38 % | 97.01 % |
+| **DKAG U-Net (ours)** | **93.76 %** | **95.95 %** | **95.58 %** | **97.99 %** | **97.91 %** |
 
 Run `python train.py` end-to-end to reproduce. Final numbers in your run will be written to `runs/<timestamp>/results.json`.
 
@@ -71,7 +71,7 @@ dkag-unet-flood/
 Tested with Python 3.10, PyTorch 2.2 (CUDA 12.1), Ubuntu 22.04.
 
 ```bash
-git clone https://github.com/<your-username>/dkag-unet-flood.git
+clone https://github.com/Prhm93/dkag-unet-flood.git
 cd dkag-unet-flood
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
